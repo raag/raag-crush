@@ -1,0 +1,96 @@
+{
+	"files.exclude": {
+		"**/.DS_Store": true,
+		"**/.git": true,
+		"**/.gitignore": true,
+		"**/.gitmodules": true,
+		"**/*.booproj": true,
+		"**/*.pidb": true,
+		"**/*.suo": true,
+		"**/*.user": true,
+		"**/*.userprefs": true,
+		"**/*.unityproj": true,
+		"**/*.dll": true,
+		"**/*.exe": true,
+		"**/*.pdf": true,
+		"**/*.mid": true,
+		"**/*.midi": true,
+		"**/*.wav": true,
+		"**/*.gif": true,
+		"**/*.ico": true,
+		"**/*.jpg": true,
+		"**/*.jpeg": true,
+		"**/*.png": true,
+		"**/*.psd": true,
+		"**/*.tga": true,
+		"**/*.tif": true,
+		"**/*.tiff": true,
+		"**/*.3ds": true,
+		"**/*.3DS": true,
+		"**/*.fbx": true,
+		"**/*.FBX": true,
+		"**/*.lxo": true,
+		"**/*.LXO": true,
+		"**/*.ma": true,
+		"**/*.MA": true,
+		"**/*.obj": true,
+		"**/*.OBJ": true,
+		"**/*.asset": true,
+		"**/*.cubemap": true,
+		"**/*.flare": true,
+		"**/*.mat": true,
+		"**/*.meta": true,
+		"**/*.prefab": true,
+		"**/*.unity": true,
+		"build/": true,
+		"Build/": true,
+		"Library/": true,
+		"library/": true,
+		"obj/": true,
+		"Obj/": true,
+		"ProjectSettings/": true,
+		"temp/": true,
+		"Temp/": true
+	},
+	"vim.easymotion": true,
+	"vim.incsearch": true,
+	"vim.useSystemClipboard": true,
+	"vim.useCtrlKeys": true,
+	"vim.hlsearch": true,
+	"vim.insertModeKeyBindings": [
+		{
+			"before": [
+				"j",
+				"j"
+			],
+			"after": [
+				"<Esc>"
+			]
+		}
+	],
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": [
+				"<leader>",
+				"d"
+			],
+			"after": [
+				"d",
+				"d"
+			]
+		},
+		{
+			"before": [
+				"<C-n>"
+			],
+			"commands": [
+				":nohl"
+			]
+		}
+	],
+	"vim.leader": ",",
+	"vim.handleKeys": {
+		"<C-a>": false,
+		"<C-f>": false
+	}
+}
