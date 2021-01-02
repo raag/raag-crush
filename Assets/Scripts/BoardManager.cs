@@ -15,6 +15,8 @@ public class BoardManager : MonoBehaviour
     private Candy selectedCandy;
     public const int MinNeighborsToMatch = 2;
 
+    public AudioSource backgroundMusic;
+
 
     void Start()
     {
@@ -28,6 +30,8 @@ public class BoardManager : MonoBehaviour
         }
         Vector2 offset = currentCandy.GetComponent<BoxCollider2D>().size;
         SetupBoard(offset);
+
+        backgroundMusic.Play();
     }
 
 

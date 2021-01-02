@@ -10,6 +10,7 @@ public class Candy : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private bool isSelected = false;
     public int id;
+    public AudioSource crushSound;
 
 
     private Vector2[] adjacentDirections = new Vector2[]
@@ -61,6 +62,7 @@ public class Candy : MonoBehaviour
             {
                 if (this.CanSwipe()) 
                 {
+                    crushSound.Play();
                     SwapSprite(previousSelected);
                     previousSelected.FindAllMatches();
                     this.FindAllMatches();
